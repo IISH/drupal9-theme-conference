@@ -1,0 +1,7 @@
+name: ELHN
+type: theme
+description: 'The elhn theme, based on the Conference theme.'
+core: 8.x
+base theme: conference
+libraries:
+  - elhn/global-styling

@@ -1,0 +1,7 @@
+name: ESSHC
+type: theme
+description: 'The esshc theme, based on the Conference theme.'
+core: 8.x
+base theme: conference
+libraries:
+  - esshc/global-styling

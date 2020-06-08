@@ -1,0 +1,7 @@
+name: GLMC
+type: theme
+description: 'The glmc theme, based on the Conference theme.'
+core: 8.x
+base theme: conference
+libraries:
+  - glmc/global-styling

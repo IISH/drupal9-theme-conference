@@ -1,0 +1,7 @@
+name: DH Benelux
+type: theme
+description: 'The DH Benelux theme, based on the Conference theme.'
+core: 8.x
+base theme: conference
+libraries:
+  - dhbenelux/global-styling

@@ -1,0 +1,11 @@
+{% extends "block.html.twig" %}
+{% set attributes = attributes.addClass('site-branding') %}
+{% block content %}
+  <div id="logo-wrapper">
+    <div class="logo">
+      <a href="{{ path('<front>') }}" title="{{ site_name }}" rel="home" id="logo">
+        <img src="{{ site_logo }}" alt="{{ site_name }}" />
+      </a>
+    </div>
+  </div>
+{% endblock %}
