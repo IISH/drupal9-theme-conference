@@ -2,7 +2,6 @@ name: Danland
 type: theme
 base theme: classy
 description: Drupal Theme provided by <a href="http://www.danetsoft.com">Danetsoft</a> developed by <a href="http://www.danpros.com">Danang Probo Sayekti</a> inspired by <a href="http://www.maksimer.no">Maksimer</a>.
-# core: 8.x
 regions:
   header: Header
   search_box: Search region
@@ -37,6 +36,6 @@ libraries:
   - danland/global
 # Information added by Drupal.org packaging script on 2016-01-29
 version: '8.x-1.0'
-core: '8.x'
+core_version_requirement: ^8 || ^9
 project: 'danland'
-datestamp: 1454052240
+datestamp: 1454052241

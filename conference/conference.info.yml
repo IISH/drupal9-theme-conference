@@ -1,7 +1,8 @@
 name: Conference
 type: theme
 description: 'The default conference theme, based on the Danland theme.'
-core: 8.x
+#core: 8.x
+core_version_requirement: ^8 || ^9
 base theme: danland
 libraries:
   - conference/global-styling

@@ -62,7 +62,7 @@ function danland_preprocess_page(&$variables) {
 	
     $mask = '/\.(?:jp[e]?g|gif|png)$/i';
     #$files = file_scan_directory(drupal_get_path('theme', 'danland') . '/images/slideshows', $mask);
-    $files = \Drupal::service('file_system')->scanDirectory(drupal_get_path('theme', 'danland') . '/images/slideshows', $mask);
+    $files = \Drupal::service('file_system')->scanDirectory( drupal_get_path('theme', 'danland') . '/images/slideshows', $mask);
     ksort($files);
     $variables['files'] = $files;
         
