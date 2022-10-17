@@ -1,0 +1,168 @@
+/* ssc styling */
+
+label {
+    display: inline-block;
+    min-width: 80px;
+}
+
+#header {
+    height: auto;
+}
+
+#logo-wrapper {
+    float: none;
+}
+
+#footer-wrapper {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.logo {
+    margin: 10px 0;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+#content {
+    margin: 10px;
+}
+
+.content {
+    margin-bottom: 15px;
+}
+
+.form-textarea-wrapper textarea {
+    width: 50%;
+}
+
+a:link, a:visited {
+    text-decoration: underline;
+}
+
+.button:first-child, .image-button:first-child {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* Color styling */
+
+body {
+    background: #fff;
+}
+
+#menu, #footer-wrapper {
+    background: #cf1212; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#cf1212, #ff4545); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#cf1212, #ff4545); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#cf1212, #ff4545); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#cf1212, #ff4545); /* Standard syntax */
+
+    -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.75);
+}
+
+#footer-wrapper {
+    color: #fff;
+}
+
+#nav .menu li {
+	border-right: 1px solid #cf1212;
+}
+
+#nav .menu a,
+#nav .menu a:visited {
+    color: #fff;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+}
+
+#nav .menu li li,
+#nav .menu li li li,
+#nav .menu li li:first-child a:hover,
+#nav .menu li li a:hover,
+#nav .menu li li:first-child a.is-active,
+#nav .menu li li a.is-active,
+#nav .menu li li.active-trail:first-child,
+#nav .menu li.active-trail li,
+#nav .menu li li.active-trail:first-child a.is-active,
+#nav .menu li.active-trail li a.is-active,
+#nav .menu li li:hover,
+#nav .menu li li li:hover {
+    /*background: #4eaa79;*/
+}
+
+#nav .menu li a,
+#nav .menu li a:hover,
+#nav .menu li:first-child a:hover,
+#nav .menu li a.is-active,
+#nav .menu li:first-child a.is-active,
+#nav .menu li.active-trail,
+#nav .menu li.active-trail:first-child,
+#nav .menu li.active-trail a.is-active,
+#nav .menu li.active-trail:first-child a.is-active {
+    background: #cf1212; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#cf1212, #ff4545); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#cf1212, #ff4545); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#cf1212, #ff4545); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#cf1212, #ff4545); /* Standard syntax */
+}
+
+#nav .menu ul {
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
+}
+
+.sidebar .block,
+.content-top,
+.content-bottom,
+.preview .node,
+.preview .comment,
+.node-sticky,
+.breadcrumb,
+.comment,
+#aggregator .feed-source,
+.profile,
+div.admin-panel .body,
+#bottom-wrapper {
+    background-color: transparent;
+}
+
+th,
+div.admin-panel h3,
+#sidebar-left h2.block-title,
+#sidebar-right h2.block-title {
+    background-color: transparent;
+    border-bottom: 1px solid #bbb;
+
+}
+
+ul.pager li.pager-current,
+.item-list .pager li a:hover {
+    background-color: #005a8c;
+}
+
+h2.site-name a {
+    color: #000;
+}
+
+#footer-wrapper a:link
+, #footer-wrapper a:visited
+, #footer-wrapper a:hover
+, #footer-wrapper a:active
+, #menu a:link
+, #menu a:visited
+, #menu a:hover
+, #menu a:active
+{
+	color: white !important;
+}
+
+#footer-wrapper {
+	color: white !important;
+}

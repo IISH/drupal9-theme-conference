@@ -1,0 +1,7 @@
+name: EuroSEAS
+type: theme
+description: 'The euroseas theme, based on the Conference theme.'
+core: 8.x
+base theme: conference
+libraries:
+  - euroseas/global-styling

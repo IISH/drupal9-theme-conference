@@ -1,0 +1,170 @@
+/* General theme styling */
+
+.site-name {
+    font-style: normal;
+}
+
+.node {
+    border-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.sidebar .block,
+.breadcrumb,
+.content-top,
+.content-bottom,
+.preview .node,
+.preview .comment,
+.node-sticky,
+.comment,
+#aggregator .feed-source,
+.profile,
+div.admin-panel .body,
+div.admin-panel h3,
+#bottom-wrapper {
+    border-style: none;
+}
+
+#block-conference-content {
+    margin: 10px 0;
+}
+
+#footer-wrapper {
+    padding: 0;
+}
+
+#notice {
+    display: none;
+}
+
+/* Conference module styling */
+
+.iishconference_container.styled,
+.iishconference_form fieldset.form-wrapper {
+    border: none;
+    padding: 0;
+}
+
+/* Message styling reset to Classy styling again */
+
+a:link, a:visited {
+	color: #DA1A15;
+}
+
+.messages {
+    background: no-repeat 10px 17px;
+    border: 1px solid;
+    border-width: 1px 1px 1px 0;
+    border-radius: 2px;
+    padding: 15px 20px 15px 35px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.messages--status {
+    color: #325e1c;
+    background-color: #f3faef;
+    border-color: #c9e1bd #c9e1bd #c9e1bd transparent; /* LTR */
+    background-image: url(../../../core/misc/icons/73b355/check.svg);
+    box-shadow: -8px 0 0 #77b259; /* LTR */
+}
+
+.messages--warning {
+    background-color: #fdf8ed;
+    background-image: url(../../../core/misc/icons/e29700/warning.svg);
+    border-color: #f4daa6 #f4daa6 #f4daa6 transparent; /* LTR */
+    color: #734c00;
+    box-shadow: -8px 0 0 #e09600; /* LTR */
+}
+
+.messages--error {
+    background-color: #fcf4f2;
+    color: #a51b00;
+    background-image: url(../../../core/misc/icons/e32700/error.svg);
+    border-color: #f9c9bf #f9c9bf #f9c9bf transparent; /* LTR */
+    box-shadow: -8px 0 0 #e62600; /* LTR */
+}
+
+/* Color styling */
+
+#menu {
+    background: #14345c; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#14345c, #285c91); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#14345c, #285c91); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#14345c, #285c91); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#14345c, #285c91); /* Standard syntax */
+
+    -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.75);
+}
+
+#nav .menu li {
+    border-right: 1px solid #345c8c;
+}
+
+#nav .menu a,
+#nav .menu a:visited {
+    color: #fff;
+}
+
+#nav .menu li li,
+#nav .menu li li li,
+#nav .menu li li:first-child a:hover,
+#nav .menu li li a:hover,
+#nav .menu li li:first-child a.is-active,
+#nav .menu li li a.is-active,
+#nav .menu li li.active-trail:first-child,
+#nav .menu li.active-trail li,
+#nav .menu li li.active-trail:first-child a.is-active,
+#nav .menu li.active-trail li a.is-active,
+#nav .menu li li:hover,
+#nav .menu li li li:hover {
+    background: #ffd56b;
+}
+
+#nav .menu li a:hover,
+#nav .menu li:first-child a:hover,
+#nav .menu li a.is-active,
+#nav .menu li:first-child a.is-active,
+#nav .menu li.active-trail,
+#nav .menu li.active-trail:first-child,
+#nav .menu li.active-trail a.is-active,
+#nav .menu li.active-trail:first-child a.is-active {
+    background: #142f50; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#142f50, #26507d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#142f50, #26507d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#142f50, #26507d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#142f50, #26507d); /* Standard syntax */
+}
+
+#nav .menu ul {
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
+}
+
+.sidebar .block,
+.content-top,
+.content-bottom,
+.preview .node,
+.preview .comment,
+.node-sticky,
+.breadcrumb,
+.comment,
+#aggregator .feed-source,
+.profile,
+div.admin-panel .body,
+#bottom-wrapper {
+    background-color: #f4f4f4;
+}
+
+th,
+div.admin-panel h3,
+#sidebar-left h2.block-title,
+#sidebar-right h2.block-title {
+    background-color: #e6e6e6;
+}
+
+ul.pager li.pager-current,
+.item-list .pager li a:hover {
+    background-color: #005a8c;
+}

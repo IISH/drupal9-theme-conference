@@ -17,13 +17,13 @@
           {{ feed_icons }}
         </div>
       {% endif %}
-      
+
     </div><!-- end header-wrapper -->
   </div> <!-- /header -->
 
   <div style="clear:both"></div>
 
-  <div id="menu">
+  <div id="menu" class="clearfix">
       {% if page.primary_menu %}
         <div id="nav">
           {{ page.primary_menu }}
@@ -54,9 +54,9 @@
           </div>
 		{% else %}
           <div class="slideshow">
-            {% for file in files %}
-              <img src="{{ file.uri }}" width="100%" height="100%" alt="{{ file.name }}"/>
-            {% endfor %}
+            <img src="{{ slide1_image }}" width="100%" height="100%" />
+            <img src="{{ slide2_image }}" width="100%" height="100%" />
+            <img src="{{ slide3_image }}" width="100%" height="100%" />
           </div>
         {% endif %}
       </div>
@@ -88,7 +88,7 @@
   <div style="clear:both"></div>
 
   <div id="wrapper">
-    
+
     <div id="content">
 
       <a id="main-content"></a>
@@ -97,49 +97,49 @@
           {{ page.content_top }}
         </div>
       {% endif %}
-      
+
       {{ page.breadcrumb }}
-      
+
       {{ page.messages }}
-      
+
       {{ title_prefix }}
-      
+
       {% if title %}
         <h1 class="title" id="page-title">
           {{ title }}
         </h1>
       {% endif %}
-      
+
       {{ title_suffix }}
-      
+
       {% if tabs %}
         <div class="tabs">
           {{ tabs }}
         </div>
       {% endif %}
-      
+
       {{ page.help }}
-      
+
       {% if action_links %}
         <ul class="action-links">
           {{ action_links }}
         </ul>
       {% endif %}
-      
+
       {% if page.content %}
         <div class="content-middle">
           {{ page.content }}
         </div>
       {% endif %}
-      
+
       {% if page.content_bottom %}
         <div class="content-bottom">
           {{ page.content_bottom }}
         </div>
       {% endif %}
-      
+
     </div> <!-- end content -->
-	
+
     {% if page.sidebar_first %}
       <div id="sidebar-left" class="column sidebar">
         <div class="section">
@@ -231,5 +231,5 @@
   <div id="notice">
     <p>Theme by <a href="http://www.danetsoft.com">Danetsoft</a> and <a href="http://www.danpros.com">Danang Probo Sayekti</a> inspired by <a href="http://www.maksimer.no">Maksimer</a></p>
   </div>
-  
+
 </div>
